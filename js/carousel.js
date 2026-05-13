@@ -16,7 +16,7 @@ class Carousel {
 
         setInterval(() => {
             Carousel.Next();
-        }, 5000);
+        }, 4000);
     }
 
     static Next() {
