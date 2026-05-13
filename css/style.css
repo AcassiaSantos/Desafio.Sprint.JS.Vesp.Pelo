@@ -235,3 +235,41 @@ button {
 button:hover {
     background: #1b357e;
 }
+@media (max-width: 768px) {
+
+    .forms {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main div {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fordform {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    select.fordform {
+        width: 95%;
+        max-width: 332px;
+    }
+
+    button {
+        width: 95%;
+        max-width: 332px;
+    }
+
+    img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
